@@ -4,6 +4,14 @@ import numpy as np
 Simple implementation of Lanczos from pseudocode given on wikipedia page
 (https://en.wikipedia.org/wiki/Lanczos_algorithm). Only reliable for the ground
 state. Should check residual to make sure what is returned is an eigenvector.
+
+Author: Niall Moran
+Email: niall.moran@gmail.com
+
+Copyright: 2016
+
+License: GPL 3
+
 """
 
 def Lanczos(A,k,v,dtype=np.float,return_eigenvectors=True, low_mem=False):
